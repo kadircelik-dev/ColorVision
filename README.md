@@ -1,16 +1,120 @@
-# React + Vite
+# ColorVision
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern accessibility-focused web application designed to help users understand color vision deficiencies and create more accessible digital interfaces.
 
-Currently, two official plugins are available:
+## 🌐 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+**[Open ColorVision](https://kadircelik-dev.github.io/ColorVision/)**
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* 🎨 Color vision mode simulation
 
-## Expanding the ESLint configuration
+  * Normal vision
+  * Protanopia
+  * Deuteranopia
+  * Tritanopia
+  * Achromatopsia
+* 🔍 Contrast Checker
+* 🎯 Color Picker
+* 👁️ Color Vision Comparison
+* 📊 Accessible data visualization examples
+* 🚦 Status indicators that don't rely on color alone
+* ♿ Accessibility principles and guidance
+* 📱 Responsive design for desktop and mobile
+* 🌙 Modern dark user interface
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Built With
+
+* React
+* Vite
+* JavaScript
+* CSS
+* GitHub Pages
+
+## 🚀 Getting Started
+
+Clone the repository:
+
+```bash
+git clone https://github.com/kadircelik-dev/ColorVision.git
+```
+
+Navigate to the project:
+
+```bash
+cd ColorVision/frontend
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+The application will be available at:
+
+```text
+http://localhost:5173/
+```
+
+## 📦 Production Build
+
+Create a production build:
+
+```bash
+npm run build
+```
+
+## 🚀 Deployment
+
+The project is deployed using GitHub Pages.
+
+To deploy a new version:
+
+```bash
+npm run deploy
+```
+
+## ♿ Accessibility
+
+ColorVision focuses on an important principle of accessible design:
+
+> Information should never be communicated through color alone.
+
+The project demonstrates accessible status indicators, contrast checking, color vision simulations, and other practical accessibility concepts.
+
+## 📁 Project Structure
+
+```text
+ColorVision/
+└── frontend/
+    ├── public/
+    ├── src/
+    │   ├── assets/
+    │   ├── App.jsx
+    │   ├── App.css
+    │   ├── index.css
+    │   └── main.jsx
+    ├── .gitignore
+    ├── index.html
+    ├── package.json
+    ├── vite.config.js
+    └── README.md
+```
+
+## 📌 Project Status
+
+ColorVision is an actively developed accessibility-focused web project.
+
+More accessibility tools, visualizations, and improvements can be added over time.
+
+## 📄 License
+
+This project does not currently specify a license.
